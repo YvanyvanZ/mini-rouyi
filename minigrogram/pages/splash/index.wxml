@@ -1,0 +1,55 @@
+<view class="container">
+  <view class="universeBackground">
+    <!-- 星空背景 -->
+    <view class="stars"></view>
+    <view class="twinklingStars"></view>
+    
+    <!-- 中心星系 -->
+    <view class="galaxyCenter">
+      <view class="core"></view>
+      <view class="spiralArm arm1"></view>
+      <view class="spiralArm arm2"></view>
+      <view class="spiralArm arm3"></view>
+    </view>
+    
+    <!-- 星座连线 -->
+    <view class="constellation">
+      <view class="star star1" data-text="觉"></view>
+      <view class="star star2" data-text="知"></view>
+      <view class="star star3" data-text="悟"></view>
+      <view class="star star4" data-text="行"></view>
+      <view class="star star5" data-text="慧"></view>
+      <view class="star star6" data-text="缘"></view>
+      <view class="star star7" data-text="道"></view>
+    </view>
+
+    <!-- 主要品牌区域 -->
+    <view class="mainBrand">
+      <view class="chineseTitle">
+        <text class="titleChar char1">人</text>
+        <text class="titleChar char2">生</text>
+        <text class="titleChar char3">云</text>
+        <text class="titleChar char4">图</text>
+      </view>
+      
+      <text class="englishTitle">RouoneLife</text>
+      <text class="subtitle">探索内在宇宙 · 绘制生命轨迹</text>
+    </view>
+
+    <!-- 加载状态 -->
+    <view class="loadingSection">
+      <view class="loadingDots">
+        <view class="dot dot1"></view>
+        <view class="dot dot2"></view>
+        <view class="dot dot3"></view>
+      </view>
+      <text class="loadingText">{{loadingMessage}}</text>
+    </view>
+
+    <!-- 底部信息 -->
+    <view class="bottomInfo">
+      <text class="versionText">版本 {{version}}</text>
+      <text class="quote">「 每个人的生命都是一幅独特的星图 」</text>
+    </view>
+  </view>
+</view>
